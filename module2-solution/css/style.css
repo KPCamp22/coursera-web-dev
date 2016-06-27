@@ -1,12 +1,13 @@
 /********** Base styles **********/
 * {
   box-sizing: border-box;
-  font-family: Helvetica;
 }
 
 body {
   background-color: #FFEFD5;
   position: relative;
+  font-family: Helvetica;
+  font-size: 80%;
 }
 h1 {
   margin-bottom: 15px;
@@ -20,17 +21,19 @@ h2 {
   border: 1px solid black;
   float: right;
   width: 40%;
+
 }
 
 p {
   background-color: #e6ffe6;
   width: 90%;
   height: 150px;
-  margin-right: auto;
-  margin-left: auto;
+  margin: auto;
+  /*margin: 35px 15px 15px 15px;*/
   font-family: Helvetica;
   color: black;
-  padding-top: 15px;
+  padding-top: 35px;
+
   }
 
 section {
