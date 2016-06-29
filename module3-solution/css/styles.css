@@ -46,7 +46,15 @@ h2, h3 {
 
 /* styles for Chicken section*/
 #Chicken {
-	background-color: #b19a8f
+	background-color: #b19a8f;
+}
+
+#Beef {
+	background-color: #FF8C89;
+}
+
+#Sushi {
+	background-color: #F4D2C6;
 }
 
 /* hide navbar padding in mobile mode */
