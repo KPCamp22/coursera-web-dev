@@ -13,6 +13,10 @@ body {
   padding-bottom: 12px;
 }
 
+.navbar-brand {
+	margin-left: 20px;
+}
+
 
 .navbar-brand h1 {
   font-family: 'Trocchi', serif;
@@ -24,6 +28,10 @@ body {
 
 h2, h3 {
 	font-family: 'Trocchi', serif;
+}
+
+h3 {
+	margin-bottom:20px;
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
@@ -41,21 +49,40 @@ h2, h3 {
 #collapsable-nav {
 	background-color: #FF8C89;
 	text-align: center;
-	border-color: #4D4D54
+	border-color: #4D4D54;
+}
+
+#main-content {
+	margin: 20px 20px 20px 20px;
+
 }
 
 /* styles for Chicken section*/
-#Chicken {
+#Chicken article {
 	background-color: #b19a8f;
 }
 
-#Beef {
+#Beef article {
 	background-color: #FF8C89;
 }
 
-#Sushi {
+#Sushi article{
 	background-color: #F4D2C6;
 }
+
+/*.row{
+	width: 100%;
+}*/
+
+article {
+	margin: 10px;
+	padding: 15px;
+}
+
+/*section {
+	margin: 5px;
+	position: relative;
+}*/
 
 /* hide navbar padding in mobile mode */
 
