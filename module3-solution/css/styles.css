@@ -2,7 +2,7 @@ body {
   font-size: 16px;
   color: #4D4D54;
   background-color: #DBCDB3;
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /** HEADER **/
@@ -10,22 +10,20 @@ body {
   background-color: #DB504D;
   border-radius: 0;
   border: 0;
-  /*height: 150px;*/
-  padding-bottom: 20px;
+  padding-bottom: 12px;
 }
 
-.navbar-brand {
-  padding-bottom: 25px;
-}
 
 .navbar-brand h1 {
-  font-family: 'Helvetica', sans-serif;
+  font-family: 'Trocchi', serif;
   color: #4D4D54;
   text-shadow: 1px 1px 1px #222;
   font-weight: bold;
-  padding-bottom: 25px;
   margin: auto;
+}
 
+h2, h3 {
+	font-family: 'Trocchi', serif;
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
@@ -38,6 +36,23 @@ body {
   clear: both;
   margin-top: -30px;
 }
+
+/* styles for collapsable menu */
+#collapsable-nav {
+	background-color: #FF8C89;
+	text-align: center;
+	border-color: #4D4D54
+}
+
+/* styles for Chicken section*/
 #Chicken {
 	background-color: #b19a8f
+}
+
+/* hide navbar padding in mobile mode */
+
+@media (max-width: 767px) {
+	#header-nav {
+		padding-bottom: 0px;
+	}
 }
