@@ -53,8 +53,17 @@ h3 {
 	border-color: #4D4D54;
 }
 
+#nav-list {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
 #nav-list a:hover {
 	background: #b19a8f;
+}
+
+#nav-list>li {
+	border-bottom: solid 1px #4D4D54;
 }
 
 #main-content {
