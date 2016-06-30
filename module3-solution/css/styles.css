@@ -37,6 +37,7 @@ h3 {
   text-decoration: none;
 }
 
+/* Changes color of borders around button */
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #4D4D54;
 }
@@ -50,6 +51,10 @@ h3 {
 	background-color: #FF8C89;
 	text-align: center;
 	border-color: #4D4D54;
+}
+
+#nav-list a:hover {
+	background: #b19a8f;
 }
 
 #main-content {
@@ -70,25 +75,30 @@ h3 {
 	background-color: #F4D2C6;
 }
 
-/*.row{
-	width: 100%;
-}*/
-
 article {
 	margin: 5px;
 	padding: 15px;
 }
+
+article a {
+	text-decoration: none;
+	color: #4D4D54;
+	text-align: right;
+	font-size: 0.8em;
+}
+
+article a:hover {
+	text-decoration: none;
+	color: #4D4D54;
+	text-shadow: 1px 1px black;
+}
+
 
 .col-md-4, .col-sm-6, .col-xs-12 {
 	padding-right:5px;
 	padding-left: 5px;
 	margin-bottom: 10px;
 }
-
-/*section {
-	margin: 5px;
-	position: relative;
-}*/
 
 /* hide navbar padding in mobile mode */
 
