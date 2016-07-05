@@ -1,4 +1,4 @@
-(// STEP 2: Wrap the entire contents of SpeakHello.js inside of an IIFE
+(function(){// STEP 2: Wrap the entire contents of SpeakHello.js inside of an IIFE
 // See Lecture 52, part 2
 
 
@@ -25,4 +25,4 @@ helloSpeaker.speak = function (name) {
 
 /* not sure if this is correct... */
 helloSpeaker.speak = helloSpeaker;
-)();
+})();
