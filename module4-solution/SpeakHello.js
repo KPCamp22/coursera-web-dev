@@ -1,4 +1,4 @@
-(function(){// STEP 2: Wrap the entire contents of SpeakHello.js inside of an IIFE
+(function(window){// STEP 2: Wrap the entire contents of SpeakHello.js inside of an IIFE
 // See Lecture 52, part 2
 
 
@@ -24,5 +24,5 @@ helloSpeaker.speak = function (name) {
 // (Note, Step 6 will be done in the SpeakGoodBye.js file.)
 
 /* not sure if this is correct... */
-helloSpeaker.speak = helloSpeaker;
-})();
+window.helloSpeaker = helloSpeaker;
+})(window);
